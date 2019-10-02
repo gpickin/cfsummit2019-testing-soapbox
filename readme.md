@@ -1,5 +1,12 @@
 # CF Summit 2019 - Biggest Testing Bang for your Buck Demo
 
+This is the demo ap from my presentation at CF Summit 2019.
+
+## Slides
+
+https://drive.google.com/file/d/1eyIuMuW_c_ZUCE5ud4x_5VGmAsXqQNhm/view
+
+
 ## CommandBox Dependencies
 
 Run a `box install` to install all of the dependencies of the app.
