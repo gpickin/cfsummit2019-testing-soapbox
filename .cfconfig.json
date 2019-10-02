@@ -1,0 +1,18 @@
+{ 
+    "robustExceptionEnabled":true,
+    "datasources" : {
+		 "soapbox":{
+			 "host":"${DB_HOST}",
+			 "dbdriver":"MySQL",
+			 "database":"${DB_DATABASE}",
+			 "dsn":"jdbc:mysql://{host}:{port}/{database}",
+			 "custom":"useUnicode=true&characterEncoding=UTF-8&useLegacyDatetimeCode=true&autoReconnect=true",
+			 "port":"3306",
+			 "class":"org.gjt.mm.mysql.Driver",
+			 "username":"${DB_USER}",
+			 "password":"${DB_PASSWORD}",
+			 "connectionLimit":"200",
+			 "connectionTimeout":"1"
+         }
+    }
+}
